@@ -71,7 +71,7 @@ const About = () => {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 pt-16 border-t border-border">
             {[
-              { value: "5+", label: "Years Experience" },
+              { value: "10+", label: "Years Experience" },
               { value: "50+", label: "Projects Completed" },
               { value: "20+", label: "AI Models Deployed" },
               { value: "99%", label: "Client Satisfaction" }
