@@ -25,11 +25,11 @@ const Hero = () => {
           
           {/* Main heading */}
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            <span className="text-foreground">AI</span>
-            <span className="text-gradient"> Full Stack</span>
-            <br />
-            <span className="text-foreground">Developer</span>
+            <span className="text-gradient">Mihailo Markovic</span>
           </h1>
+          <p className="text-2xl md:text-3xl font-medium text-muted-foreground mb-2 animate-fade-up" style={{ animationDelay: "0.15s" }}>
+            AI Full Stack Developer
+          </p>
           
           {/* Subtitle */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-up" style={{ animationDelay: "0.2s" }}>
