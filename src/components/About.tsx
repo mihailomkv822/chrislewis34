@@ -38,7 +38,7 @@ const About = () => {
               Bridging <span className="text-gradient">AI</span> and <span className="text-gradient">Engineering</span>
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              With 5+ years of experience building production-grade AI systems, I specialize in 
+              With 10+ years of experience building production-grade AI systems, I specialize in 
               creating intelligent applications that solve real-world problems.
             </p>
           </div>
