@@ -59,18 +59,6 @@ const Contact = () => {
                 </div>
               </div>
               
-              <div className="p-6 rounded-2xl bg-gradient-to-br from-primary/10 to-accent/10 border border-primary/20">
-                <h3 className="text-lg font-semibold mb-2">Open to Opportunities</h3>
-                <p className="text-muted-foreground text-sm mb-4">
-                  Currently available for freelance projects and full-time positions.
-                </p>
-                <Button variant="glow" asChild>
-                  <a href="mailto:hello@example.com">
-                    Schedule a Call
-                    <ArrowUpRight className="w-4 h-4 ml-1" />
-                  </a>
-                </Button>
-              </div>
             </div>
             
             {/* Contact form */}
