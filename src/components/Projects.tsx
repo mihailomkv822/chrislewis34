@@ -5,38 +5,38 @@ const Projects = () => {
   const projects = [
     {
       title: "Neural Search Engine",
-      description: "A semantic search platform powered by transformer models. Enables natural language queries across millions of documents with sub-second response times.",
+      description: "HubFinance is a cutting-edge financial platform that connects businesses with essential financial services to streamline operations, manage risks, and drive growth. Whether you're a startup or an established enterprise, HubFinance offers tailored solutions, from funding and investment opportunities to cash flow management and financial advisory services. With a focus on innovation, transparency, and customer success, HubFinance simplifies complex financial processes, empowering businesses to achieve their goals efficiently and securely.",
       tags: ["Python", "FastAPI", "React", "Pinecone", "OpenAI"],
-      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop",
+      image: "https://694c86670fe1214ef2882353.imgix.net/Screenshot_14.png",
       github: "#",
-      live: "#",
+      live: "https://www.hubfinance.com/en/",
       featured: true
     },
     {
-      title: "AI Code Reviewer",
-      description: "Automated code review system using LLMs to analyze pull requests, detect bugs, and suggest improvements in real-time.",
+      title: "Rever",
+      description: "Rever.vn is a leading real estate platform in Vietnam, offering seamless property buying, selling, and renting experiences. Whether you're searching for your dream home, selling a property, or exploring investment rtunities, Rever.vn provides professional services, market insights, and cutting-edge technology to guide you every step of the way. With a trusted network of agents, verified listings, and advanced tools like virtual tours, Rever.vn is the ultimate destination for making informed real estate decisions.",
       tags: ["TypeScript", "LangChain", "GitHub API", "PostgreSQL"],
-      image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop",
+      image: "https://694c86670fe1214ef2882353.imgix.net/Screenshot_11.png",
       github: "#",
-      live: "#",
+      live: "https://rever.vn/",
       featured: true
     },
     {
-      title: "Predictive Analytics Dashboard",
-      description: "Real-time analytics platform with ML-powered forecasting. Processes 1M+ events daily for actionable business insights.",
+      title: "LoveVelo",
+      description: "Love Velo is a premier cycling travel company specializing in creating unforgettable bike holidays and tours worldwide. Whether you’re a seasoned cyclist seeking an adventurous route or a leisure rider looking to explore stunning destinations, Love Velo curates the perfect cycling experiences tailored to your needs.",
       tags: ["React", "D3.js", "Python", "TensorFlow", "AWS"],
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+      image: "https://694c86670fe1214ef2882353.imgix.net/Screenshot_10.png",
       github: "#",
-      live: "#",
+      live: "https://lovevelo.co.uk/",
       featured: false
     },
     {
-      title: "Voice AI Assistant",
-      description: "Multi-modal AI assistant with voice recognition, natural language understanding, and contextual responses.",
+      title: "MiCard",
+      description: "Micard.io is a modern and innovative platform that allows individuals and businesses to create and share digital business cards effortlessly. With its sleek design and easy-to-use interface, Micard.io replaces traditional paper cards with eco-friendly, digital alternatives that can be shared instantly and updated in real time.",
       tags: ["Python", "Whisper", "GPT-4", "WebSockets", "Next.js"],
-      image: "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=800&h=600&fit=crop",
+      image: "https://694c86670fe1214ef2882353.imgix.net/Screenshot_9.png",
       github: "#",
-      live: "#",
+      live: "https://micard.io/en-de",
       featured: false
     }
   ];
