@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Github, Linkedin, FileUser } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -52,7 +52,7 @@ const Hero = () => {
           {/* Social links */}
           <div className="flex gap-4 justify-center animate-fade-up" style={{ animationDelay: "0.4s" }}>
             <a 
-              href="https://github.com" 
+              href="https://github.com/harrykein101" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full border border-border bg-card/50 text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300 hover:scale-110"
@@ -60,7 +60,7 @@ const Hero = () => {
               <Github className="w-5 h-5" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/keanna-holley-54b965131/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full border border-border bg-card/50 text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300 hover:scale-110"
@@ -68,10 +68,10 @@ const Hero = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a 
-              href="mailto:hello@example.com"
+              href="https://jumpshare.com/share/eDyA2JSyldvr53iXou6h"
               className="p-3 rounded-full border border-border bg-card/50 text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300 hover:scale-110"
             >
-              <Mail className="w-5 h-5" />
+              <FileUser className="w-5 h-5" />
             </a>
           </div>
         </div>
