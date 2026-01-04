@@ -1,4 +1,4 @@
-import { Github, Linkedin, FileUser } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             {/* Logo/Name */}
             <div className="text-center md:text-left">
-              <div className="text-xl font-bold text-gradient mb-1">AI Dev</div>
+              <div className="text-xl font-bold text-gradient mb-1">Chris Lewis</div>
               <p className="text-sm text-muted-foreground">
                 Building the future with AI
               </p>
@@ -17,9 +17,9 @@ const Footer = () => {
             {/* Social links */}
             <div className="flex gap-4">
               {[
-                { icon: Github, href: "https://github.com/harrykein101", label: "GitHub" },
-                { icon: Linkedin, href: "https://linkedin.com/in/keanna-holley-54b965131", label: "LinkedIn" },
-                { icon: FileUser, href: "https://jumpshare.com/share/eDyA2JSyldvr53iXou6h", label: "Resume" },
+                { icon: Github, href: "https://github.com/chrislewis14", label: "GitHub" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/chris-lewis-302906351/", label: "LinkedIn" },
+                { icon: Mail, href: "mailto:chrislewis34@proton.me", label: "Email" },
               ].map(({ icon: Icon, href, label }) => (
                 <a
                   key={label}
