@@ -32,7 +32,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a href="#" className="text-xl font-bold text-gradient">
-            AI Dev
+            Chris Lewis
           </a>
           
           {/* Desktop nav */}
@@ -47,7 +47,7 @@ const Navbar = () => {
               </a>
             ))}
             <Button variant="glow" size="sm" asChild>
-              <a href="mailto:hello@example.com">Hire Me</a>
+              <a href="mailto:chrislewis34@proton.me">Hire Me</a>
             </Button>
           </div>
           
@@ -75,7 +75,7 @@ const Navbar = () => {
                 </a>
               ))}
               <Button variant="glow" className="mt-2" asChild>
-                <a href="mailto:hello@example.com">Hire Me</a>
+                <a href="mailto:chrislewis34@proton.me">Hire Me</a>
               </Button>
             </div>
           </div>

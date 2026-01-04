@@ -25,7 +25,7 @@ const Hero = () => {
           
           {/* Main heading */}
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            <span className="text-gradient">Mihailo Markovic</span>
+            <span className="text-gradient">Chris Lewis</span>
           </h1>
           <p className="text-2xl md:text-3xl font-medium text-muted-foreground mb-2 animate-fade-up" style={{ animationDelay: "0.15s" }}>
             AI Full Stack Developer
@@ -52,7 +52,7 @@ const Hero = () => {
           {/* Social links */}
           <div className="flex gap-4 justify-center animate-fade-up" style={{ animationDelay: "0.4s" }}>
             <a 
-              href="https://github.com/harrykein101" 
+              href="https://github.com/chrislewis14" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full border border-border bg-card/50 text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300 hover:scale-110"
@@ -60,7 +60,7 @@ const Hero = () => {
               <Github className="w-5 h-5" />
             </a>
             <a 
-              href="https://www.linkedin.com/in/keanna-holley-54b965131/" 
+              href="https://www.linkedin.com/in/chris-lewis-302906351/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full border border-border bg-card/50 text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300 hover:scale-110"
