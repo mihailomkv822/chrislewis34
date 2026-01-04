@@ -68,7 +68,9 @@ const Hero = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a 
-              href="https://jumpshare.com/share/eDyA2JSyldvr53iXou6h"
+              href="https://jumpshare.com/share/QvjB6agoQNhlVTx1OtZj"
+              target="_blank"
+              rel="noopener noreferrer"
               className="p-3 rounded-full border border-border bg-card/50 text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300 hover:scale-110"
             >
               <FileUser className="w-5 h-5" />
