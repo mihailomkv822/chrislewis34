@@ -3,24 +3,24 @@ import { Brain, Code2, Database, Sparkles } from "lucide-react";
 const About = () => {
   const highlights = [
     {
-      icon: Brain,
-      title: "AI & Machine Learning",
-      description: "Deep expertise in neural networks, NLP, and computer vision. Building intelligent systems that learn and adapt."
-    },
-    {
       icon: Code2,
       title: "Full Stack Development",
-      description: "End-to-end application development with modern frameworks. From pixel-perfect UIs to scalable backends."
+      description: "End-to-end application development with React, Node.js, Python, and .NET. From pixel-perfect UIs to scalable backends."
     },
     {
       icon: Database,
-      title: "Data Engineering",
-      description: "Designing robust data pipelines and architectures. Making data accessible, reliable, and actionable."
+      title: "Database & APIs",
+      description: "Expert in PostgreSQL, SQL Server, and MongoDB. Building RESTful APIs that power enterprise applications."
     },
     {
       icon: Sparkles,
-      title: "LLM Integration",
-      description: "Integrating large language models into production systems. RAG, fine-tuning, and prompt engineering."
+      title: "Cloud & DevOps",
+      description: "AWS infrastructure, Docker containerization, and CI/CD pipelines. Zero-downtime deployments at scale."
+    },
+    {
+      icon: Brain,
+      title: "Game Development",
+      description: "Browser-based multiplayer games using Phaser 3 and PixiJS. Real-time sync and optimized performance."
     }
   ];
 
@@ -35,11 +35,10 @@ const About = () => {
           <div className="text-center mb-16">
             <span className="text-primary font-mono text-sm tracking-wider">ABOUT ME</span>
             <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6">
-              Bridging <span className="text-gradient">AI</span> and <span className="text-gradient">Engineering</span>
+              Full Stack <span className="text-gradient">Developer</span>
             </h2>
-            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              With 10+ years of experience building production-grade AI systems, I specialize in 
-              creating intelligent applications that solve real-world problems.
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              Full Stack Developer with 10+ years of experience building scalable web applications and interactive experiences for SaaS, logistics, and gaming platforms. Proven expertise in React, Node.js, Python, .NET, and cloud infrastructure (AWS), with a track record of shipping end-to-end features that improve performance, automate workflows, and enhance user engagement.
             </p>
           </div>
           

@@ -6,7 +6,7 @@ const Experience = () => {
       title: "Full Stack Developer",
       company: "FieldFlow",
       location: "San Francisco, CA",
-      period: "Mar 2022 – Present",
+      period: "Feb 2024 – Nov 2025",
       achievements: [
         "Led end-to-end development of workflow automation features for a B2B SaaS platform serving 500+ enterprise clients, reducing manual data entry by 70%",
         "Built responsive UIs using React, TypeScript, and Tailwind CSS, improving Lighthouse performance scores from 62 to 94",
@@ -17,9 +17,9 @@ const Experience = () => {
     },
     {
       title: "Software Engineer",
-      company: "Bloom & Co",
+      company: "Bloom & Co., Inc",
       location: "Chicago, IL",
-      period: "Jun 2020 – Feb 2022",
+      period: "Feb 2019 – Dec 2023",
       achievements: [
         "Owned full-stack rebuild of a legacy customer portal serving 10K+ users, migrating from jQuery to React + Redux",
         "Developed secure .NET Core microservices in C# with SQL Server, implementing RBAC and JWT-based authentication",
@@ -29,9 +29,9 @@ const Experience = () => {
     },
     {
       title: "Full Stack Developer",
-      company: "Midwest Industrial Services",
+      company: "Midwest Industrial Services Inc",
       location: "Detroit, MI",
-      period: "Jan 2019 – May 2020",
+      period: "Jan 2017 – Nov 2018",
       achievements: [
         "Designed and deployed an internal logistics management system using Angular, ASP.NET MVC, and SQL Server",
         "Optimized complex SQL queries, decreasing report generation time from 12 seconds to under 2 seconds",
@@ -41,9 +41,9 @@ const Experience = () => {
     },
     {
       title: "Web Game Developer",
-      company: "Undisclosed Tech Company",
+      company: "Undisclosed",
       location: "Remote",
-      period: "Jun 2019 – Aug 2019",
+      period: "Feb 2015 – Dec 2016",
       achievements: [
         "Developed browser-based multiplayer mini-games using Phaser 3, PixiJS, and Socket.IO for 10K+ monthly active users",
         "Built Node.js backend to manage user sessions, leaderboards, and persistent game progress in MongoDB",
@@ -51,10 +51,10 @@ const Experience = () => {
       ]
     },
     {
-      title: "Software Development Intern",
-      company: "Undisclosed Tech Company",
+      title: "Engineer Intern",
+      company: "Undisclosed",
       location: "Remote",
-      period: "Jun 2018 – Aug 2018",
+      period: "Jun 2014 – Feb 2015",
       achievements: [
         "Built UI components and debugging gameplay logic for educational web games using JavaScript and HTML5 Canvas",
         "Wrote unit tests for game state transitions and supported cross-browser compatibility testing",
