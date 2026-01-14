@@ -1,20 +1,20 @@
 const TechStack = () => {
   const categories = [
     {
-      title: "AI & ML",
-      techs: ["PyTorch", "TensorFlow", "LangChain", "OpenAI", "Hugging Face", "scikit-learn"]
-    },
-    {
       title: "Frontend",
-      techs: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Three.js", "Framer Motion"]
+      techs: ["React", "Angular", "TypeScript", "JavaScript (ES6+)", "Tailwind CSS", "Phaser 3", "PixiJS"]
     },
     {
       title: "Backend",
-      techs: ["Python", "Node.js", "FastAPI", "PostgreSQL", "Redis", "GraphQL"]
+      techs: ["Node.js", "Express", "Python", "FastAPI", "Flask", "C#", ".NET Core", "ASP.NET MVC"]
     },
     {
-      title: "DevOps & Cloud",
-      techs: ["AWS", "Docker", "Kubernetes", "Vercel", "GitHub Actions", "Terraform"]
+      title: "Databases",
+      techs: ["PostgreSQL", "MySQL", "SQL Server", "MongoDB"]
+    },
+    {
+      title: "Cloud & DevOps",
+      techs: ["AWS (EC2, S3, RDS)", "Docker", "GitHub Actions", "Git", "Heroku", "CI/CD"]
     }
   ];
 
@@ -43,7 +43,7 @@ const TechStack = () => {
               Tools of the <span className="text-gradient">Trade</span>
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              A curated selection of technologies I use to build intelligent, scalable applications.
+              A curated selection of technologies I use to build scalable, high-performance applications.
             </p>
           </div>
           

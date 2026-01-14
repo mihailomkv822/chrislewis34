@@ -8,18 +8,17 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             {/* Logo/Name */}
             <div className="text-center md:text-left">
-              <div className="text-xl font-bold text-gradient mb-1">Chris Lewis</div>
+              <div className="text-xl font-bold text-gradient mb-1">Bobby Pettry</div>
               <p className="text-sm text-muted-foreground">
-                Building the future with AI
+                Building the future with code
               </p>
             </div>
             
             {/* Social links */}
             <div className="flex gap-4">
               {[
-                { icon: Github, href: "https://github.com/chrislewis14", label: "GitHub" },
-                { icon: Linkedin, href: "https://www.linkedin.com/in/chris-lewis-302906351/", label: "LinkedIn" },
-                { icon: Mail, href: "mailto:chrislewis34@proton.me", label: "Email" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/bobby-pettry-9b9ba03a5/", label: "LinkedIn" },
+                { icon: Mail, href: "mailto:bobbypettry99@proton.me", label: "Email" },
               ].map(({ icon: Icon, href, label }) => (
                 <a
                   key={label}

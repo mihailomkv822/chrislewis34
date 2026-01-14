@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Github, Linkedin, FileUser } from "lucide-react";
+import { ArrowDown, Linkedin, FileUser } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -25,17 +25,17 @@ const Hero = () => {
           
           {/* Main heading */}
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            <span className="text-gradient">Chris Lewis</span>
+            <span className="text-gradient">Bobby Pettry</span>
           </h1>
           <p className="text-2xl md:text-3xl font-medium text-muted-foreground mb-2 animate-fade-up" style={{ animationDelay: "0.15s" }}>
-            AI Full Stack Developer
+            Senior Full Stack Developer
           </p>
           
           {/* Subtitle */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            Building intelligent applications at the intersection of 
-            <span className="text-primary"> machine learning</span> and 
-            <span className="text-accent"> modern web technologies</span>. 
+            Building scalable applications with 
+            <span className="text-primary"> React, Node.js</span> and 
+            <span className="text-accent"> cloud technologies</span>. 
             Transforming complex problems into elegant solutions.
           </p>
           
@@ -52,16 +52,16 @@ const Hero = () => {
           {/* Social links */}
           <div className="flex gap-4 justify-center animate-fade-up" style={{ animationDelay: "0.4s" }}>
             <a 
-              href="https://github.com/chrislewis14" 
-              target="_blank" 
+              href="https://www.linkedin.com/in/bobby-pettry-9b9ba03a5/"
+              target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full border border-border bg-card/50 text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300 hover:scale-110"
             >
-              <Github className="w-5 h-5" />
+              <Linkedin className="w-5 h-5" />
             </a>
             <a 
-              href="https://www.linkedin.com/in/chris-lewis-302906351/" 
-              target="_blank" 
+              href="https://www.linkedin.com/in/bobby-pettry-9b9ba03a5/"
+              target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full border border-border bg-card/50 text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300 hover:scale-110"
             >
