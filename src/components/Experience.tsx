@@ -3,53 +3,71 @@ import { Briefcase, GraduationCap, Calendar, MapPin } from "lucide-react";
 const Experience = () => {
   const workHistory = [
     {
-      title: "Senior Full Stack Developer",
-      company: "Self-Employed",
-      location: "",
-      period: "04/2020 - Present",
+      title: "Full Stack Developer",
+      company: "FieldFlow",
+      location: "San Francisco, CA",
+      period: "Mar 2022 – Present",
       achievements: [
-        "Led the implementation of advanced data analytics tools, improving decision-making processes and boosting efficiency by 15%",
-        "Developed comprehensive test scripts for system upgrades, reducing errors by 10% and enhancing reliability",
-        "Conducted data mapping and system integration for a new loan management platform, resulting in a 20% increase in processing speed",
-        "Provided expert advice to multiple business units, facilitating smoother project execution and stronger interdepartmental collaboration",
-        "Created and maintained a reporting inventory, ensuring timely and accurate dissemination of critical information",
-        "Participated in disaster recovery exercises, strengthening business continuity plans and securing high-level approval"
+        "Led end-to-end development of workflow automation features for a B2B SaaS platform serving 500+ enterprise clients, reducing manual data entry by 70%",
+        "Built responsive UIs using React, TypeScript, and Tailwind CSS, improving Lighthouse performance scores from 62 to 94",
+        "Designed and deployed RESTful APIs in Node.js/Express and Python/FastAPI, reducing average API response time by 40%",
+        "Containerized services with Docker and orchestrated deployments on AWS using GitHub Actions CI/CD",
+        "Mentored junior engineers on testing best practices and component architecture"
       ]
     },
     {
-      title: "Business Analyst",
-      company: "TD Bank",
-      location: "Wilmington, DE",
-      period: "06/2015 - 02/2019",
+      title: "Software Engineer",
+      company: "Bloom & Co",
+      location: "Chicago, IL",
+      period: "Jun 2020 – Feb 2022",
       achievements: [
-        "Led development of full-stack web applications using Next.js, React, Python, and Django",
-        "Designed and implemented AI-powered features and automation workflows to reduce manual operations",
-        "Built secure and scalable REST APIs with authentication and role-based access control",
-        "Improved performance and SEO through server-side rendering and optimized data fetching",
-        "Deployed and maintained applications on AWS, using Docker and CI/CD pipelines",
-        "Collaborated closely with product managers and designers in an agile environment"
+        "Owned full-stack rebuild of a legacy customer portal serving 10K+ users, migrating from jQuery to React + Redux",
+        "Developed secure .NET Core microservices in C# with SQL Server, implementing RBAC and JWT-based authentication",
+        "Engineered real-time inventory dashboards using WebSockets and Chart.js, reducing fulfillment delays by 25%",
+        "Established automated test coverage using Jest and xUnit, maintaining 85%+ code coverage"
       ]
     },
     {
-      title: "Data Analyst",
-      company: "Bank of America",
-      location: "Newark, DE",
-      period: "08/2012 - 05/2015",
+      title: "Full Stack Developer",
+      company: "Midwest Industrial Services",
+      location: "Detroit, MI",
+      period: "Jan 2019 – May 2020",
       achievements: [
-        "Enhanced user engagement by 15% through developing client-facing web applications using React and Next.js",
-        "Built backend services with Django and Flask, integrating third-party APIs",
-        "Delivered million-dollar projects by managing 5 initiatives simultaneously under tight deadlines",
-        "Optimized frontend performance and improved user experience across devices",
-        "Participated in client meetings to clarify requirements and propose solutions"
+        "Designed and deployed an internal logistics management system using Angular, ASP.NET MVC, and SQL Server",
+        "Optimized complex SQL queries, decreasing report generation time from 12 seconds to under 2 seconds",
+        "Integrated application with third-party ERP system via RESTful APIs, automating 200+ daily transactions",
+        "Created reusable Angular components, reducing UI inconsistency bugs by 50%"
+      ]
+    },
+    {
+      title: "Web Game Developer",
+      company: "Undisclosed Tech Company",
+      location: "Remote",
+      period: "Jun 2019 – Aug 2019",
+      achievements: [
+        "Developed browser-based multiplayer mini-games using Phaser 3, PixiJS, and Socket.IO for 10K+ monthly active users",
+        "Built Node.js backend to manage user sessions, leaderboards, and persistent game progress in MongoDB",
+        "Optimized rendering performance achieving stable 60 FPS even on low-end mobile devices"
+      ]
+    },
+    {
+      title: "Software Development Intern",
+      company: "Undisclosed Tech Company",
+      location: "Remote",
+      period: "Jun 2018 – Aug 2018",
+      achievements: [
+        "Built UI components and debugging gameplay logic for educational web games using JavaScript and HTML5 Canvas",
+        "Wrote unit tests for game state transitions and supported cross-browser compatibility testing",
+        "Gained hands-on experience with Git workflows, Agile stand-ups, and Jira task tracking"
       ]
     }
   ];
 
   const education = {
-    degree: "Master of Business Administration (MBA)",
-    school: "Temple University",
-    location: "Philadelphia, PA",
-    period: "01/2010 - 01/2012"
+    degree: "Bachelor's degree, Information Technology",
+    school: "Ball State University",
+    location: "Muncie, IN",
+    period: "Apr 2010 - Sep 2013"
   };
 
   return (

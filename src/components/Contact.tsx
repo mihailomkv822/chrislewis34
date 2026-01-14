@@ -46,15 +46,15 @@ const Contact = () => {
                 <h3 className="text-lg font-semibold mb-4">Quick Contact</h3>
                 <div className="space-y-4">
                   <a 
-                    href="mailto:chrislewis34@proton.me"
+                    href="mailto:bobbypettry99@proton.me"
                     className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
                   >
                     <Mail className="w-5 h-5" />
-                    chrislewis34@proton.me
+                    bobbypettry99@proton.me
                   </a>
                   <div className="flex items-center gap-3 text-muted-foreground">
                     <MapPin className="w-5 h-5" />
-                    Maricopa County, AZ
+                    San Francisco, CA
                   </div>
                 </div>
               </div>
