@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Linkedin, FileUser } from "lucide-react";
+import { ArrowDown, Linkedin, FileUser, Github } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -52,12 +52,12 @@ const Hero = () => {
           {/* Social links */}
           <div className="flex gap-4 justify-center animate-fade-up" style={{ animationDelay: "0.4s" }}>
             <a 
-              href="https://www.linkedin.com/in/bobby-pettry-9b9ba03a5/"
+              href="https://github.com/realdev71"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full border border-border bg-card/50 text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300 hover:scale-110"
             >
-              <Linkedin className="w-5 h-5" />
+              <Github className="w-5 h-5" />
             </a>
             <a 
               href="https://www.linkedin.com/in/bobby-pettry-9b9ba03a5/"
@@ -68,7 +68,7 @@ const Hero = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a 
-              href="https://jumpshare.com/share/QvjB6agoQNhlVTx1OtZj"
+              href="https://docs.google.com/document/d/1NKW6W4-4idKSD5PXUPWFEv_WdKdalBtFTwfE9jgwlHs/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full border border-border bg-card/50 text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300 hover:scale-110"
