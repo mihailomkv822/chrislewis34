@@ -7,7 +7,7 @@ const Projects = () => {
       title: "Neural Search Engine",
       description: "HubFinance is a cutting-edge financial platform that connects businesses with essential financial services to streamline operations, manage risks, and drive growth. Whether you're a startup or an established enterprise, HubFinance offers tailored solutions, from funding and investment opportunities to cash flow management and financial advisory services. With a focus on innovation, transparency, and customer success, HubFinance simplifies complex financial processes, empowering businesses to achieve their goals efficiently and securely.",
       tags: ["Python", "FastAPI", "React", "Pinecone", "OpenAI"],
-      image: "https://694c86670fe1214ef2882353.imgix.net/Screenshot_14.png",
+      image: "hub-finance.png",
       github: "#",
       live: "https://www.hubfinance.com/en/",
       featured: true
@@ -16,7 +16,7 @@ const Projects = () => {
       title: "Rever",
       description: "Rever.vn is a leading real estate platform in Vietnam, offering seamless property buying, selling, and renting experiences. Whether you're searching for your dream home, selling a property, or exploring investment rtunities, Rever.vn provides professional services, market insights, and cutting-edge technology to guide you every step of the way. With a trusted network of agents, verified listings, and advanced tools like virtual tours, Rever.vn is the ultimate destination for making informed real estate decisions.",
       tags: ["TypeScript", "LangChain", "GitHub API", "PostgreSQL"],
-      image: "https://694c86670fe1214ef2882353.imgix.net/Screenshot_11.png",
+      image: "rever.png",
       github: "#",
       live: "https://rever.vn/",
       featured: true
@@ -25,7 +25,7 @@ const Projects = () => {
       title: "LoveVelo",
       description: "Love Velo is a premier cycling travel company specializing in creating unforgettable bike holidays and tours worldwide. Whether you’re a seasoned cyclist seeking an adventurous route or a leisure rider looking to explore stunning destinations, Love Velo curates the perfect cycling experiences tailored to your needs.",
       tags: ["React", "D3.js", "Python", "TensorFlow", "AWS"],
-      image: "https://694c86670fe1214ef2882353.imgix.net/Screenshot_10.png",
+      image: "love-velo.png",
       github: "#",
       live: "https://lovevelo.co.uk/",
       featured: false
@@ -34,7 +34,7 @@ const Projects = () => {
       title: "MiCard",
       description: "Micard.io is a modern and innovative platform that allows individuals and businesses to create and share digital business cards effortlessly. With its sleek design and easy-to-use interface, Micard.io replaces traditional paper cards with eco-friendly, digital alternatives that can be shared instantly and updated in real time.",
       tags: ["Python", "Whisper", "GPT-4", "WebSockets", "Next.js"],
-      image: "https://694c86670fe1214ef2882353.imgix.net/Screenshot_9.png",
+      image: "mi-card.png",
       github: "#",
       live: "https://micard.io/en-de",
       featured: false
@@ -45,7 +45,7 @@ const Projects = () => {
     <section id="projects" className="py-32 relative">
       {/* Background gradient */}
       <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-accent/10 rounded-full blur-[120px]" />
-      
+
       <div className="container px-4 relative">
         <div className="max-w-6xl mx-auto">
           {/* Section header */}
@@ -58,26 +58,25 @@ const Projects = () => {
               A showcase of AI-powered applications and systems I've built.
             </p>
           </div>
-          
+
           {/* Projects grid */}
           <div className="grid md:grid-cols-2 gap-8">
             {projects.map((project, index) => (
-              <div 
+              <div
                 key={project.title}
-                className={`group relative overflow-hidden rounded-2xl bg-card border border-border hover:border-primary/30 transition-all duration-500 ${
-                  project.featured ? 'md:col-span-1' : ''
-                }`}
+                className={`group relative overflow-hidden rounded-2xl bg-card border border-border hover:border-primary/30 transition-all duration-500 ${project.featured ? 'md:col-span-1' : ''
+                  }`}
               >
                 {/* Image */}
-                <div className="relative h-56 overflow-hidden">
-                  <img 
-                    src={project.image} 
+                <div className="relative h-58 overflow-hidden">
+                  <img
+                    src={project.image}
                     alt={project.title}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-card via-card/50 to-transparent" />
                 </div>
-                
+
                 {/* Content */}
                 <div className="p-6">
                   <h3 className="text-xl font-semibold mb-3 group-hover:text-primary transition-colors">
@@ -86,11 +85,11 @@ const Projects = () => {
                   <p className="text-muted-foreground text-sm leading-relaxed mb-4">
                     {project.description}
                   </p>
-                  
+
                   {/* Tags */}
                   <div className="flex flex-wrap gap-2 mb-6">
                     {project.tags.map((tag) => (
-                      <span 
+                      <span
                         key={tag}
                         className="px-2 py-1 text-xs font-mono bg-secondary rounded-md text-muted-foreground"
                       >
@@ -98,7 +97,7 @@ const Projects = () => {
                       </span>
                     ))}
                   </div>
-                  
+
                   {/* Links */}
                   <div className="flex gap-3">
                     <Button variant="outline" size="sm" asChild>
