@@ -7,7 +7,7 @@ const Projects = () => {
       title: "Neural Search Engine",
       description: "HubFinance is a cutting-edge financial platform that connects businesses with essential financial services to streamline operations, manage risks, and drive growth. Whether you're a startup or an established enterprise, HubFinance offers tailored solutions, from funding and investment opportunities to cash flow management and financial advisory services. With a focus on innovation, transparency, and customer success, HubFinance simplifies complex financial processes, empowering businesses to achieve their goals efficiently and securely.",
       tags: ["Python", "FastAPI", "React", "Pinecone", "OpenAI"],
-      image: "hub-finance.png",
+      image: "hub-finance.jpg",
       github: "#",
       live: "https://www.hubfinance.com/en/",
       featured: true
@@ -16,7 +16,7 @@ const Projects = () => {
       title: "Rever",
       description: "Rever.vn is a leading real estate platform in Vietnam, offering seamless property buying, selling, and renting experiences. Whether you're searching for your dream home, selling a property, or exploring investment rtunities, Rever.vn provides professional services, market insights, and cutting-edge technology to guide you every step of the way. With a trusted network of agents, verified listings, and advanced tools like virtual tours, Rever.vn is the ultimate destination for making informed real estate decisions.",
       tags: ["TypeScript", "LangChain", "GitHub API", "PostgreSQL"],
-      image: "rever.png",
+      image: "rever.jpg",
       github: "#",
       live: "https://rever.vn/",
       featured: true
@@ -25,7 +25,7 @@ const Projects = () => {
       title: "LoveVelo",
       description: "Love Velo is a premier cycling travel company specializing in creating unforgettable bike holidays and tours worldwide. Whether you’re a seasoned cyclist seeking an adventurous route or a leisure rider looking to explore stunning destinations, Love Velo curates the perfect cycling experiences tailored to your needs.",
       tags: ["React", "D3.js", "Python", "TensorFlow", "AWS"],
-      image: "love-velo.png",
+      image: "love-velo.jpg",
       github: "#",
       live: "https://lovevelo.co.uk/",
       featured: false
@@ -34,7 +34,7 @@ const Projects = () => {
       title: "MiCard",
       description: "Micard.io is a modern and innovative platform that allows individuals and businesses to create and share digital business cards effortlessly. With its sleek design and easy-to-use interface, Micard.io replaces traditional paper cards with eco-friendly, digital alternatives that can be shared instantly and updated in real time.",
       tags: ["Python", "Whisper", "GPT-4", "WebSockets", "Next.js"],
-      image: "mi-card.png",
+      image: "mi-card.jpg",
       github: "#",
       live: "https://micard.io/en-de",
       featured: false
