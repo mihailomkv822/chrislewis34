@@ -1,20 +1,32 @@
 const TechStack = () => {
   const categories = [
     {
+      title: "Languages",
+      techs: ["Java (7, 8, 14)", "Python", "JavaScript", "TypeScript", "SQL"]
+    },
+    {
       title: "Frontend",
-      techs: ["React", "Angular", "TypeScript", "JavaScript (ES6+)", "Tailwind CSS", "Phaser 3", "PixiJS"]
+      techs: ["React", "React Native", "Angular", "Vue", "jQuery", "HTML5", "CSS3", "Tailwind"]
     },
     {
       title: "Backend",
-      techs: ["Node.js", "Express", "Python", "FastAPI", "Flask", "C#", ".NET Core", "ASP.NET MVC"]
+      techs: ["Spring Boot", "Spring MVC", "Spring Data JPA", "Spring Security", "Spring Batch", "Hibernate"]
+    },
+    {
+      title: "AI/ML",
+      techs: ["OpenAI API", "Anthropic Claude", "LangChain", "RAG", "Cursor", "Copilot"]
     },
     {
       title: "Databases",
-      techs: ["PostgreSQL", "MySQL", "SQL Server", "MongoDB"]
+      techs: ["PostgreSQL", "Oracle", "SQL Server", "MongoDB", "Redis", "Cassandra"]
     },
     {
       title: "Cloud & DevOps",
-      techs: ["AWS (EC2, S3, RDS)", "Docker", "GitHub Actions", "Git", "Heroku", "CI/CD"]
+      techs: ["AWS (EC2, S3, RDS)", "Azure", "Docker", "Kubernetes", "ECS/Fargate", "GitHub Actions", "Jenkins", "Git"]
+    },
+    {
+      title: "Testing & QA",
+      techs: ["JUnit", "Mockito", "Jest", "React Testing Library", "Cypress", "PyTest", "Postman"]
     }
   ];
 

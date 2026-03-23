@@ -3,68 +3,72 @@ import { Briefcase, GraduationCap, Calendar, MapPin } from "lucide-react";
 const Experience = () => {
   const workHistory = [
     {
-      title: "Full Stack Developer",
-      company: "FieldFlow",
+      title: "Senior Full Stack Java Developer",
+      company: "TD",
+      location: "Toronto, Canada",
+      period: "Feb 2023 – Dec 2025",
+      achievements: [
+        "Designed and built modular Spring Boot microservices to support customer account updates, payments, authentication, notifications, and operational workflows",
+        "Developed RESTful APIs integrating with downstream systems such as Customer Information Services, KYC verification, authorization engines, and fraud monitoring platforms",
+        "Created modern Angular UI screens using reusable components, reactive forms, data binding, and client-side validations",
+        "Integrated Spring Security with OAuth2/JWT, enforcing role-based authentication and token-based access control",
+        "Implemented Kafka producers and consumers for asynchronous processing of transaction logs, user activity events, and system notifications"
+      ]
+    },
+    {
+      title: "Senior Full Stack Java Developer",
+      company: "Delta Dental Insurance",
       location: "San Francisco, CA",
-      period: "Feb 2024 – Nov 2025",
+      period: "Feb 2020 – Nov 2022",
       achievements: [
-        "Led end-to-end development of workflow automation features for a B2B SaaS platform serving 500+ enterprise clients, reducing manual data entry by 70%",
-        "Built responsive UIs using React, TypeScript, and Tailwind CSS, improving Lighthouse performance scores from 62 to 94",
-        "Designed and deployed RESTful APIs in Node.js/Express and Python/FastAPI, reducing average API response time by 40%",
-        "Containerized services with Docker and orchestrated deployments on AWS using GitHub Actions CI/CD",
-        "Mentored junior engineers on testing best practices and component architecture"
+        "Developed scalable healthcare applications using Java 14, Spring Boot, Spring MVC, Hibernate, and RESTful APIs within a microservices architecture",
+        "Developed responsive UI components using Angular, TypeScript, RxJS, integrating with Java-based backend services",
+        "Implemented secure authentication and authorization using Spring Security, OAuth2, and JWT, ensuring HIPAA compliance",
+        "Modernized legacy systems into cloud-native services deployed on AWS (EC2, S3, RDS) using Docker and Kubernetes",
+        "Designed event-driven systems using RabbitMQ and optimized distributed data storage with Cassandra and PostgreSQL"
       ]
     },
     {
-      title: "Software Engineer",
-      company: "Bloom & Co., Inc",
-      location: "Chicago, IL",
-      period: "Feb 2019 – Dec 2023",
+      title: "Full Stack Java Developer",
+      company: "GEICO",
+      location: "Chevy Chase, MD",
+      period: "Feb 2017 – Dec 2019",
       achievements: [
-        "Owned full-stack rebuild of a legacy customer portal serving 10K+ users, migrating from jQuery to React + Redux",
-        "Developed secure .NET Core microservices in C# with SQL Server, implementing RBAC and JWT-based authentication",
-        "Engineered real-time inventory dashboards using WebSockets and Chart.js, reducing fulfillment delays by 25%",
-        "Established automated test coverage using Jest and xUnit, maintaining 85%+ code coverage"
+        "Developed and modernized enterprise insurance platforms using Java 8, Spring Boot, Spring MVC, and Angular within a microservices architecture",
+        "Built secure RESTful APIs to automate policy, claims, and underwriting workflows, ensuring regulatory compliance and scalability",
+        "Implemented batch and real-time processing solutions using Spring Batch, ActiveMQ, and WebSocket",
+        "Optimized database performance in Oracle through query tuning, indexing, and performance optimization techniques",
+        "Streamlined CI/CD pipelines using GitLab, and deployed containerized applications with Docker and Kubernetes on Azure"
       ]
     },
     {
-      title: "Full Stack Developer",
-      company: "Midwest Industrial Services Inc",
-      location: "Detroit, MI",
-      period: "Jan 2017 – Nov 2018",
+      title: "Java Software Developer",
+      company: "CVS Health",
+      location: "Woonsocket, RI",
+      period: "May 2014 – Nov 2016",
       achievements: [
-        "Designed and deployed an internal logistics management system using Angular, ASP.NET MVC, and SQL Server",
-        "Optimized complex SQL queries, decreasing report generation time from 12 seconds to under 2 seconds",
-        "Integrated application with third-party ERP system via RESTful APIs, automating 200+ daily transactions",
-        "Created reusable Angular components, reducing UI inconsistency bugs by 50%"
+        "Designed and developed secure healthcare applications using Java 7, Spring Boot, Spring MVC, and AngularJS within service-oriented and microservices architectures",
+        "Developed responsive UI components using React, TypeScript, Redux, HTML5, CSS3, integrating with Java-based backend services",
+        "Deployed containerized applications on AWS (ECS, Fargate), enabling scalable and resilient cloud-native environments",
+        "Optimized database performance in PostgreSQL through query tuning, indexing, and transaction management"
       ]
     },
     {
-      title: "Web Game Developer",
-      company: "Undisclosed",
-      location: "Remote",
-      period: "Feb 2015 – Dec 2016",
+      title: "Java Developer",
+      company: "CVS Health",
+      location: "Woonsocket, RI",
+      period: "Sep 2013 – May 2014",
       achievements: [
-        "Developed browser-based multiplayer mini-games using Phaser 3, PixiJS, and Socket.IO for 10K+ monthly active users",
-        "Built Node.js backend to manage user sessions, leaderboards, and persistent game progress in MongoDB",
-        "Optimized rendering performance achieving stable 60 FPS even on low-end mobile devices"
-      ]
-    },
-    {
-      title: "Engineer Intern",
-      company: "Undisclosed",
-      location: "Remote",
-      period: "Jun 2014 – Feb 2015",
-      achievements: [
-        "Built UI components and debugging gameplay logic for educational web games using JavaScript and HTML5 Canvas",
-        "Wrote unit tests for game state transitions and supported cross-browser compatibility testing",
-        "Gained hands-on experience with Git workflows, Agile stand-ups, and Jira task tracking"
+        "Assisted in developing and enhancing enterprise banking applications using Java, Spring Framework, and SQL Server within an Agile environment",
+        "Participated in database performance tuning in SQL Server, optimizing queries and supporting stored procedure updates",
+        "Assisted in deploying applications on Oracle WebLogic Server and maintaining build automation using Ant",
+        "Collaborated with senior developers in code reviews, testing, debugging, and production support activities"
       ]
     }
   ];
 
   const education = {
-    degree: "Bachelor's degree, Information Technology",
+    degree: "Bachelor of Science in Computer Software Engineering",
     school: "Ball State University",
     location: "Muncie, IN",
     period: "Apr 2010 - Sep 2013"
@@ -85,7 +89,7 @@ const Experience = () => {
               Work <span className="text-gradient">Experience</span>
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              Over a decade of experience building scalable applications and driving business value through technology.
+              Over a decade of experience building enterprise Java applications across healthcare, insurance, and financial services.
             </p>
           </div>
 
