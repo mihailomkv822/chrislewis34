@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowUpRight, Github } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 
 const Projects = () => {
   const projects = [
@@ -100,12 +100,6 @@ const Projects = () => {
 
                   {/* Links */}
                   <div className="flex gap-3">
-                    <Button variant="outline" size="sm" asChild>
-                      <a href={project.github} target="_blank" rel="noopener noreferrer">
-                        <Github className="w-4 h-4 mr-2" />
-                        Code
-                      </a>
-                    </Button>
                     <Button variant="hero" size="sm" asChild>
                       <a href={project.live} target="_blank" rel="noopener noreferrer">
                         Live Demo
