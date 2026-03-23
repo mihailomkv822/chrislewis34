@@ -28,14 +28,14 @@ const Hero = () => {
             <span className="text-gradient">Bobby Pettry</span>
           </h1>
           <p className="text-2xl md:text-3xl font-medium text-muted-foreground mb-2 animate-fade-up" style={{ animationDelay: "0.15s" }}>
-            Senior Full Stack Developer
+            Senior Java Full Stack Developer
           </p>
           
           {/* Subtitle */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-up" style={{ animationDelay: "0.2s" }}>
             Building scalable applications with 
-            <span className="text-primary"> React, Node.js</span> and 
-            <span className="text-accent"> cloud technologies</span>. 
+            <span className="text-primary"> Spring Boot, Angular, React</span> and 
+            <span className="text-accent"> cloud-native architectures</span>. 
             Transforming complex problems into elegant solutions.
           </p>
           
@@ -60,7 +60,7 @@ const Hero = () => {
               <Github className="w-5 h-5" />
             </a>
             <a 
-              href="https://www.linkedin.com/in/bobby-pettry-9b9ba03a5/"
+              href="https://www.linkedin.com/in/bobbypettryin/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full border border-border bg-card/50 text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300 hover:scale-110"

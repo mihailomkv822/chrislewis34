@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowUpRight, Mail, MapPin, Send } from "lucide-react";
+import { Mail, MapPin, Send } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 
@@ -46,19 +46,18 @@ const Contact = () => {
                 <h3 className="text-lg font-semibold mb-4">Quick Contact</h3>
                 <div className="space-y-4">
                   <a 
-                    href="mailto:bobbypettry99@proton.me"
+                    href="mailto:goodlawdson@gmail.com"
                     className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
                   >
                     <Mail className="w-5 h-5" />
-                    bobbypettry99@proton.me
+                    goodlawdson@gmail.com
                   </a>
                   <div className="flex items-center gap-3 text-muted-foreground">
                     <MapPin className="w-5 h-5" />
-                    Indiana, United States
+                    Rochester, IN
                   </div>
                 </div>
               </div>
-              
             </div>
             
             {/* Contact form */}

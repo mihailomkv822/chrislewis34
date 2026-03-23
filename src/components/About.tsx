@@ -1,26 +1,26 @@
-import { Brain, Code2, Database, Sparkles } from "lucide-react";
+import { Code2, Database, Cloud, Brain } from "lucide-react";
 
 const About = () => {
   const highlights = [
     {
       icon: Code2,
-      title: "Full Stack Development",
-      description: "End-to-end application development with React, Node.js, Python, and .NET. From pixel-perfect UIs to scalable backends."
+      title: "Java Full Stack Development",
+      description: "End-to-end application development with Java, Spring Boot, Angular, React, and Vue. From enterprise backends to responsive UIs."
     },
     {
       icon: Database,
-      title: "Database & APIs",
-      description: "Expert in PostgreSQL, SQL Server, and MongoDB. Building RESTful APIs that power enterprise applications."
+      title: "Microservices & APIs",
+      description: "Expert in designing scalable microservices, RESTful APIs, event-driven architectures with Kafka/RabbitMQ, and Spring Security with OAuth2/JWT."
     },
     {
-      icon: Sparkles,
+      icon: Cloud,
       title: "Cloud & DevOps",
-      description: "AWS infrastructure, Docker containerization, and CI/CD pipelines. Zero-downtime deployments at scale."
+      description: "AWS & Azure infrastructure, Docker/Kubernetes containerization, and CI/CD pipelines with Jenkins, Bamboo, and GitHub Actions."
     },
     {
       icon: Brain,
-      title: "Game Development",
-      description: "Browser-based multiplayer games using Phaser 3 and PixiJS. Real-time sync and optimized performance."
+      title: "AI & Modern Tech",
+      description: "Integrating OpenAI, Claude, LangChain, and RAG patterns into enterprise applications. AI-assisted development with Cursor and Copilot."
     }
   ];
 
@@ -35,10 +35,10 @@ const About = () => {
           <div className="text-center mb-16">
             <span className="text-primary font-mono text-sm tracking-wider">ABOUT ME</span>
             <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6">
-              Full Stack <span className="text-gradient">Developer</span>
+              Senior Java <span className="text-gradient">Full Stack Developer</span>
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
-              Full Stack Developer with 10+ years of experience building scalable web applications and interactive experiences for SaaS, logistics, and gaming platforms. Proven expertise in React, Node.js, Python, .NET, and cloud infrastructure (AWS), with a track record of shipping end-to-end features that improve performance, automate workflows, and enhance user engagement.
+              Java developer passionate about building scalable, secure, and cloud-native applications. Specializing in Java (7–14), Spring Boot, Spring MVC, Spring Data, Spring Security, Hibernate, RESTful APIs, microservices, and event-driven architectures. Building seamless user experiences with Angular, React, Vue, TypeScript, and Tailwind.
             </p>
           </div>
           
@@ -70,9 +70,9 @@ const About = () => {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 pt-16 border-t border-border">
             {[
-              { value: "10+", label: "Years Experience" },
+              { value: "12+", label: "Years Experience" },
               { value: "50+", label: "Projects Completed" },
-              { value: "20+", label: "AI Models Deployed" },
+              { value: "5+", label: "Enterprise Clients" },
               { value: "99%", label: "Client Satisfaction" }
             ].map((stat) => (
               <div key={stat.label} className="text-center">
