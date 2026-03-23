@@ -52,7 +52,7 @@ const Hero = () => {
           {/* Social links */}
           <div className="flex gap-4 justify-center animate-fade-up" style={{ animationDelay: "0.4s" }}>
             <a 
-              href="https://github.com/realdev71"
+              href="https://github.com/supdev69"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full border border-border bg-card/50 text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300 hover:scale-110"
